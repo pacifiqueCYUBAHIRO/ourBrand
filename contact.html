@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="./contact.css">
+  <script src="https://kit.fontawesome.com/03d0a7c683.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+  <input type="checkbox" class="myCheckBox" id="myCheck">
+  <label for="myCheck" class="checkButton">
+      <i class="fa fa-bars"></i>
+  </label>
+  <img src="./images/logo.png">
+  <ul>
+    <li id="links">
+      <a href="index.html">Home</a>
+      <a href="service.html">Service</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="hire.html"><button>Hire</button></a>
+    </li>
+  </ul>
+</nav>
+
+
+<div class="container">
+
+<div class="contact">
+  <h2><u>Contact</u></h2>
+</div>
+
+
+<div class="all-half">
+<div class="half">
+  <h2>Give us your opinion</h2>
+  <img src="/images/contact5.png" alt="" width="500px" style="margin: 50px;">
+</div>
+
+
+<div class="half">
+  <pre>
+  <form action="">
+  <label>Name</label>
+  <input type="text" placeholder=" Your name" required/>
+
+  <label>Email</label>
+  <input type="text" placeholder=" Your email" required/>
+
+  <label>Message</label>
+  <textarea name="" id="" cols="50" rows="10" placeholder="Write your message..." style="padding: 10px;" required></textarea>
+
+  <input type="submit" value="SEND" id="ss">
+</form>
+</pre>
+</div>
+
+</div>
+
+<div class="icons">
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href=""><i class="fa-solid fa-phone">&nbsp;&nbsp;&nbsp;&nbsp;+250 780 559 083</i></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href=""><i class="fa-solid fa-envelope">&nbsp;&nbsp;&nbsp;&nbsp; Bluedot@blueskatt.org</i></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href=""><i class="fa-sharp fa-solid fa-location-dot">&nbsp;&nbsp;&nbsp;&nbsp; Kigali- Gasabo- Beside Unilake</i></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href=""><i class="fa-brands fa-linkedin">&nbsp;&nbsp;&nbsp;&nbsp; Bluedot</i></a>
+
+</div>
+
+</div>
+
+<hr class="hr1">
+
+
+<div class="footer">
+
+  <div class="social">Follow Us :
+      <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+  </div>
+<div class="all-links">
+<div class="links">
+  <h4>Links</h4>
+  <a href="">Best design</a>
+  <a href="#article">Article</a>
+  <a href="#">FAQ</a>
+</div>
+
+<div class="links">
+  <h4>Team</h4>
+  <a href="">Review</a>
+  <a href="">Help</a>
+  <a href="">privacy policy</a>
+
+</div>
+
+  <div class="links">
+      <h4>About</h4>
+      <a href="">Services</a>
+      <a href="#">payment options</a>
+      <a href="">Latest article</a>
+  </div>
+
+</div>
+
+<hr>
+<div class="copyright">&copy;Alright Resvered Blue’s Team@ bluedot.com</div>
+</div>
+
+
+
+<script>
+  // Get the image and the list of links
+var image = document.getElementById("myImage");
+var links = document.getElementById("links");
+
+// Add a click event listener to the image
+image.addEventListener("click", function() {
+	// If the list of links is currently hidden, show it
+	if (links.style.display === "none") {
+		links.style.display = "block";
+	}
+	// If the list of links is currently visible, hide it
+	else {
+		links.style.display = "none";
+	}
+});
+
+</script>
+</body>
+</html>
