@@ -245,7 +245,7 @@ select {
     .checkButton{
         display: block;
     }
-
+    
     ul{
         position: fixed;
         width: 100%;
@@ -256,7 +256,7 @@ select {
         text-align: center;
         transition: all .5s;
     }
-
+    
     nav ul li a{
         display: block;
         font-size: 20px;
@@ -264,7 +264,7 @@ select {
         margin-right: 50px;
        
     }
-
+    
     .myCheckBox:checked ~ ul{
         left: 0;
     }
@@ -292,6 +292,7 @@ select {
           margin-left: 70px;
          
          
+      }  
       }
       
       
@@ -313,9 +314,7 @@ select {
             align-items: center;
             justify-content: center;
             margin-left: 70px;
-            width: 30%;
+            width: 80%;
            
         }
-      }
-      
-      }
+        }

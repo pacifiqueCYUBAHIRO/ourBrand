@@ -172,7 +172,7 @@ nav button:hover{
     .checkButton{
         display: block;
     }
-
+    
     ul{
         position: fixed;
         width: 100%;
@@ -183,7 +183,7 @@ nav button:hover{
         text-align: center;
         transition: all .5s;
     }
-
+    
     nav ul li a{
         display: block;
         font-size: 20px;
@@ -191,11 +191,10 @@ nav button:hover{
         margin-right: 50px;
        
     }
-
+    
     .myCheckBox:checked ~ ul{
         left: 0;
     }
-
     .footer{
         display: flex;
         flex-direction: column;
@@ -219,12 +218,11 @@ nav button:hover{
     }
       
       
-      @media (max-width: 1018px) {
+    @media (max-width: 1018px) {
         .footer{
           display: flex;
           flex-direction: column;
          }
-
          .social{
           display: flex;
           flex-direction: column;
@@ -238,8 +236,7 @@ nav button:hover{
             align-items: center;
             justify-content: center;
             margin-left: 70px;
-            width: 30%;
+            width: 80%;
            
         }
-
-      }
+        }
