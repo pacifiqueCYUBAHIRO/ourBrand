@@ -216,18 +216,18 @@ nav button:hover{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 30px;
 }
 
 .social{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
 
 }
 .social-icons i{
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px;
   text-align: center;
   transition: all 0.5s ease;

@@ -282,7 +282,7 @@ nav ul li a{
         margin: 0;
     }
     .boxes .box{
-        width: 90%;
+        width: 100%;
         background: linear-gradient(170.8deg, rgba(26, 23, 60, 0.3) 11.61%, rgba(26, 23, 60, 0) 90.87%);
         border-radius: 16px 17px 0px 11px;
         margin: 50px;
